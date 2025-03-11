@@ -1,4 +1,3 @@
-
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import FeaturesSection from "@/components/FeaturesSection";
@@ -17,7 +16,7 @@ const Index = () => {
       type: "Mittelfristig",
       performance: { daily: 0.8, monthly: 12.5 },
       risk: "Medium" as const,
-      icon: "grid"
+      icon: "grid" as const
     },
     {
       title: "Smart DCA Strategy",
@@ -25,7 +24,7 @@ const Index = () => {
       type: "Langfristig",
       performance: { daily: 0.4, monthly: 8.2 },
       risk: "Low" as const,
-      icon: "dca"
+      icon: "dca" as const
     },
     {
       title: "Trend Following AI",
@@ -33,7 +32,7 @@ const Index = () => {
       type: "Kurzfristig",
       performance: { daily: 1.2, monthly: 18.7 },
       risk: "High" as const,
-      icon: "trend"
+      icon: "trend" as const
     },
     {
       title: "Cross-DEX Arbitrage",
@@ -41,7 +40,7 @@ const Index = () => {
       type: "Kurzfristig",
       performance: { daily: 0.6, monthly: 14.3 },
       risk: "Medium" as const,
-      icon: "arbitrage"
+      icon: "arbitrage" as const
     }
   ];
 
